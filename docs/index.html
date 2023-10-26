@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+  </head>
+  <body>
+    <h1>Hand-Written digits and operators Calculator</h1>
+    <div id="loadingIndicator">Loading model...</div>
+    <canvas id="canvas" width="200" height="200"></canvas>
+    <div class="button-container">
+      <button id="ExtractButton">Make Calculation</button>
+      <button id="ClearButton">Return</button>
+    </div>
+    <div id="arrayDisplay"></div>
+    <script src="static/scripts/script.js"></script>
+  </body>
+</html>
